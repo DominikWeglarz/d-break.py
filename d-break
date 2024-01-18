@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import pyfiglet
 
-text1 = 'Dominik  ordered  a  break  until  '
+text1 = 'Dominik  ordered  a  break  until:  '
 text2 = input("Enter time: ")
 full_text = text1 + text2
 ascii_banner = pyfiglet.figlet_format(full_text)
